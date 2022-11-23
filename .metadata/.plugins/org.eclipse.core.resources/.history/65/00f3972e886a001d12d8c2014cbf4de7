@@ -1,0 +1,24 @@
+package com.springcore.orm.springorm;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.springcore.orm.dao.StudentDao;
+import com.springcore.orm.entities.Student;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
+        StudentDao studentDao = context.getBean("studentDao",StudentDao.class);
+        //Student student = new Student(233, "Karan Jain 2", "Kolkata");
+        //int result = studentDao.insert(student);
+        Student readResult = studentDao.read(233);
+        System.out.println("done " + readResult.getCity());
+    }
+}

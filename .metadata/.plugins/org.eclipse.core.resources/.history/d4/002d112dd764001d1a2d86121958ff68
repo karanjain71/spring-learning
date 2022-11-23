@@ -1,0 +1,13 @@
+package com.springcore.springcore2.ref;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test {
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/springcore/springcore2/ref/refConfig.xml");
+		A test = (A) context.getBean("aref");
+		System.out.println(test.getX());
+		System.out.println(test.getOb());
+	}
+}

@@ -1,0 +1,14 @@
+package com.springcore.springcore2.auto.wire;
+
+import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test {
+	public static void main(String[] args) {
+		AbstractApplicationContext context = new ClassPathXmlApplicationContext("com/springcore/springcore2/auto/wire/autoConfig.xml");
+		Emp s1 = (Emp) context.getBean("emp");
+		System.out.println(s1);
+		//registering shutdown hook here, remember to change the class name to AbstractApplicationContext
+		context.registerShutdownHook();
+	}
+}

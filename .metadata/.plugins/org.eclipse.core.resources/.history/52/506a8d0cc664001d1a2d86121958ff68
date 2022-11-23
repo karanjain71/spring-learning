@@ -1,0 +1,8 @@
+package com.springcore.springcore2;
+
+public class Student {
+	private int studentId;
+	private String studentName;
+	private String studentAddress;
+	
+}

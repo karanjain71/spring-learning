@@ -1,0 +1,5 @@
+package com.springcore.springjdbc.dao;
+
+public interface StudentDao {
+
+}

@@ -1,0 +1,15 @@
+package com.springcore.springcore2.collections;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test {
+
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/springcore/springcore2/collections/collectionsConfig.xml");
+		Emp employee = (Emp)context.getBean("emp1");
+		System.out.println(employee.getEmpName());
+		System.out.println(employee.getCourses());
+		System.out.println(employee.getAddresses()));
+	}
+}

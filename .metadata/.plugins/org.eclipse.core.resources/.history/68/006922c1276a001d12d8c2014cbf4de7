@@ -1,0 +1,35 @@
+package com.springcore.springjdbc;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.springcore.springjdbc.dao.StudentDao;
+import com.springcore.springjdbc.entities.Student;
+
+/**
+ * Hello world!
+ *
+ */
+public class App  
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "This is the JDBC program start" );
+        ApplicationContext context = new ClassPathXmlApplicationContext("com/springcore/springjdbc/jdbcconfig.xml");
+        StudentDao studentDao = (StudentDao)context.getBean("studentDao", StudentDao.class);
+        
+//        Student student = new Student();
+//        student.setId(6616);
+//        student.setName("Sathish Jain Changed");
+//        student.setCity("California");
+//        
+//        int result = studentDao.change(student);
+//        System.out.println("Number of records inserted "+ result);
+        Student student = new Student();
+        student.setId(666);
+        
+        int result = studentDao.getStudent(student);
+        System.out.println("Number of records deleted "+ result);
+        
+    }
+}

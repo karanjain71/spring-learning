@@ -1,0 +1,15 @@
+package com.springcore.springcore2.collections;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+public class Emp {
+	private String empName;
+	private List<String> phones;
+	private Set<String> addresses;
+	private Map<String,String> courses;
+	
+	
+	
+}	

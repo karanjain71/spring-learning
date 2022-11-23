@@ -1,0 +1,14 @@
+package com.springcore.springcore2.ci;
+
+public class Certi {
+	public String certi;
+
+	public String getCerti() {
+		return certi;
+	}
+
+	public void setCerti(String certi) {
+		this.certi = certi;
+	}
+	
+}

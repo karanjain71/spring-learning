@@ -1,0 +1,24 @@
+package com.springcore.springcore2.ci;
+
+public class Certi {
+	public String certi;
+
+	public String getCerti() {
+		return certi;
+	}
+
+	@Override
+	public String toString() {
+		return "Certi [certi=" + certi + "]";
+	}
+
+	public Certi(String certi) {
+		super();
+		this.certi = certi;
+	}
+
+	public void setCerti(String certi) {
+		this.certi = certi;
+	}
+	
+}

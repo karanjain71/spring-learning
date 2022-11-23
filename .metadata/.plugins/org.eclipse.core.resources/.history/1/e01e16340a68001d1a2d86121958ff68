@@ -1,0 +1,9 @@
+package com.springcore.springjdbc.dao;
+
+public class StudentDaoImpl implements StudentDao{
+
+	public int insert() {
+		return 0;
+	}
+	
+}

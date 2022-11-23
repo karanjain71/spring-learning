@@ -1,0 +1,7 @@
+package com.springcore.springcore2.stereotype;
+
+public class Test {
+	public static void main(String[] args) {
+		
+	}
+}

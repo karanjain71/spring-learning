@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.springcore.orm.dao.Student&apos; to &apos;StudentDao&apos;&#x0A;- Original project: &apos;springorm&apos;&#x0A;- Original element: &apos;com.springcore.orm.dao.Student&apos;&#x0A;- Renamed element: &apos;com.springcore.orm.dao.StudentDao&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Student&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springcore.orm.dao{Student.java[Student" matchStrategy="1" name="StudentDao" qualified="false" references="true" similarDeclarations="false" stamp="1669119329025" textual="false" version="1.0"/>
+</session>
