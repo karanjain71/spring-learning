@@ -1,6 +1,0 @@
-package com.springcore.springcore2.ci;
-
-public class Certi {
-	public String certi;
-	
-}

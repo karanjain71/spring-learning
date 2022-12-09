@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=/Users/karanjain/git/repository/.git\:
-GitRepositoriesView.GitDirectories.relative=/Users/karanjain/git/repository/.git\:
+GitRepositoriesView.GitDirectories=/Users/karanjain/git/repository/.git\:/Users/karanjain/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/.git\:
+GitRepositoriesView.GitDirectories.relative=/Users/karanjain/git/repository/.git\:.git\:
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

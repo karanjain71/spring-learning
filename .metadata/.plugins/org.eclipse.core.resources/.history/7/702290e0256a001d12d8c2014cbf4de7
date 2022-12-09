@@ -1,5 +1,0 @@
-package com.springcore.springjdbc.dao;
-
-public class RowMapper {
-
-}

@@ -1,26 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=""/>
+		<item key="selection" value="getAllPosts"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="drivercl"/>
-			<item value="datasour"/>
-			<item value="datasource"/>
-			<item value="lombok"/>
-			<item value="S"/>
-			<item value=""/>
+			<item value="getallposts"/>
+			<item value="Pageable"/>
+			<item value="page"/>
+			<item value="getallpost"/>
+			<item value="delete"/>
+			<item value="request"/>
+			<item value="getAllPosts"/>
+			<item value="getPostsByCategory"/>
+			<item value="UserService"/>
+			<item value="map("/>
+			<item value="map"/>
+			<item value="createuser"/>
+			<item value="getuserbyid"/>
+			<item value="update"/>
+			<item value="hibernatetrans"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="991"/>
-		<item key="DIALOG_Y_ORIGIN" value="157"/>
+		<item key="DIALOG_X_ORIGIN" value="989"/>
+		<item key="DIALOG_Y_ORIGIN" value="300"/>
 		<item key="DIALOG_WIDTH" value="336"/>
 		<item key="DIALOG_HEIGHT" value="402"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>

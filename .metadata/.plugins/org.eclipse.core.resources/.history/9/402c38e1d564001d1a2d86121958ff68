@@ -1,6 +1,0 @@
-package com.springcore.springcore2.ref;
-
-public class A {
-	private int x;
-	private B ob;
-}

@@ -30,7 +30,6 @@
 	 		</props>
 	 		
 	 	</property>
-	 	
 	 	<property name="annotatedClasses">
 	 		<list>
 	 			<value>com.springcore.orm.entities.Student</value>

@@ -14,6 +14,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/Users/karanjain/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/Servers/Tomcat v9.0 Server at localhost-config/server.xml"/>
+			<item value="/Users/karanjain/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/springmvc1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -37,14 +39,28 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.spring.mvc.javatesting"/>
+			<item value="com.spring.mvc.testing"/>
+			<item value="com.spring.mvc.springmvc2"/>
+			<item value="com.spring.mvc.springmvc1"/>
+			<item value="com.spring.mvc.springmvc"/>
+			<item value="com.springcore.orm.springorm"/>
 			<item value="com.springcore.springjdbc"/>
 			<item value="com.springcore.springcore2"/>
 			<item value="com.springcore.springcore"/>
 		</list>
 		<list key="groupId">
+			<item value="com.spring.mvc"/>
+			<item value="com.springcore.orm"/>
 			<item value="com.springcore"/>
 		</list>
 		<list key="artifactId">
+			<item value="javatesting"/>
+			<item value="testing"/>
+			<item value="springmvc2"/>
+			<item value="springmvc1"/>
+			<item value="springmvc"/>
+			<item value="springorm"/>
 			<item value="springjdbc"/>
 			<item value="springcore2"/>
 			<item value="springcore"/>

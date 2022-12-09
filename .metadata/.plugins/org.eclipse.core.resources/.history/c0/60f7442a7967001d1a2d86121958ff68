@@ -1,7 +1,0 @@
-package com.springcore.springcore2.javaConfig;
-
-public class Student {
-	public void study() {
-		System.out.println("Student is reading book");
-	}
-}
