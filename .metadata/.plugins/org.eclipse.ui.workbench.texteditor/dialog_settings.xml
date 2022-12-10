@@ -1,35 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="getAllPosts"/>
+		<item key="selection" value="model"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="getallposts"/>
-			<item value="Pageable"/>
-			<item value="page"/>
-			<item value="getallpost"/>
-			<item value="delete"/>
-			<item value="request"/>
-			<item value="getAllPosts"/>
-			<item value="getPostsByCategory"/>
-			<item value="UserService"/>
-			<item value="map("/>
-			<item value="map"/>
-			<item value="createuser"/>
-			<item value="getuserbyid"/>
-			<item value="update"/>
-			<item value="hibernatetrans"/>
+			<item value="model"/>
+			<item value="userdetail"/>
+			<item value="jwtAuthenticationFilter"/>
+			<item value="generateToken"/>
+			<item value="createToken"/>
+			<item value="SECRET_KEY"/>
+			<item value="passwordEncoder"/>
+			<item value="PasswordEncoder"/>
+			<item value="filterChain"/>
+			<item value="userDetails"/>
+			<item value="coming"/>
+			<item value="are we coming"/>
+			<item value="AuthenticationManager"/>
+			<item value="authentication"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="989"/>
-		<item key="DIALOG_Y_ORIGIN" value="300"/>
+		<item key="DIALOG_X_ORIGIN" value="1084"/>
+		<item key="DIALOG_Y_ORIGIN" value="416"/>
 		<item key="DIALOG_WIDTH" value="336"/>
 		<item key="DIALOG_HEIGHT" value="402"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
